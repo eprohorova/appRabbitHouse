@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #627281;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.HelloController">
+   <children>
+      <AnchorPane layoutY="90.0" prefHeight="309.0" prefWidth="700.0" style="-fx-background-color: #BFBDC0; -fx-border-radius: 0;">
+         <children>
+            <PasswordField fx:id="PasswordField" layoutX="214.0" layoutY="180.0" prefHeight="33.0" prefWidth="271.0" promptText="Password" style="-fx-background-color: white; -fx-border-color: grey; -fx-border-radius: 3;">
+               <font>
+                  <Font name="Serif Regular" size="17.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="JoinButton" layoutX="275.0" layoutY="239.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="150.0" style="-fx-background-color: #627281;" text="Join" textAlignment="CENTER" textFill="#bfbdc0">
+               <font>
+                  <Font name="Serif Regular" size="24.0" />
+               </font>
+            </Button>
+            <TextField fx:id="LoginField" layoutX="214.0" layoutY="130.0" prefHeight="34.0" prefWidth="271.0" promptText="Login" style="-fx-background-color: white; -fx-border-color: grey; -fx-border-radius: 3;">
+               <font>
+                  <Font name="Serif Regular" size="17.0" />
+               </font>
+            </TextField>
+            <Label layoutX="266.0" layoutY="79.0" text="Authorization" textAlignment="CENTER" textFill="#627281">
+               <font>
+                  <Font name="Serif Regular" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="245.0" layoutY="25.0" text="Rabbit house" textAlignment="CENTER" textFill="#bfbdc0">
+         <font>
+            <Font name="Serif Regular" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="LogInButton" layoutX="583.0" layoutY="30.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="77.0" style="-fx-background-color: #BFBDC0; -fx-border-radius: 10;" text="log in" textAlignment="CENTER" textFill="#627281">
+         <font>
+            <Font name="Serif Regular" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

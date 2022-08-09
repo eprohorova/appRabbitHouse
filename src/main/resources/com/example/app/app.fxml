@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #627281;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.HomeController">
+    <children>
+        <AnchorPane layoutY="90.0" prefHeight="309.0" prefWidth="700.0" style="-fx-background-color: #BFBDC0; -fx-border-radius: 0;">
+            <children>
+                <Label layoutX="292.0" layoutY="14.0" text="Welcome" textAlignment="CENTER" textFill="#627281">
+                    <font>
+                        <Font name="Serif Regular" size="30.0" />
+                    </font>
+                </Label>
+            <ImageView fitHeight="118.0" fitWidth="145.0" layoutX="117.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/image/loon-icon1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="118.0" fitWidth="118.0" layoutX="235.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/image/loon-icon2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="118.0" fitWidth="118.0" layoutX="353.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/image/loon-icon3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="125.0" fitWidth="118.0" layoutX="471.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/image/loon-icon4.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageButtonHome" fitHeight="99.0" fitWidth="124.0" layoutX="304.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/image/home.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="245.0" layoutY="25.0" text="Rabbit house" textAlignment="CENTER" textFill="#bfbdc0">
+            <font>
+                <Font name="Serif Regular" size="40.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
